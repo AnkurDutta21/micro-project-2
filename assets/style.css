@@ -118,6 +118,7 @@ nav{
 
 .survey-wrp {
     width: 70%;
+    height: 50vh;
     display: flex;
     align-items: center;
     margin: auto;
