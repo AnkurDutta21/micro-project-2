@@ -42,17 +42,18 @@
     height: 24px;
     width: 24px;
 }
-
+nav{
+    position: fixed;
+    top: 0px;
+    left: 1px;
+    width: 100%;
+}
 .nav-wrp {
     background: #6F6AF7;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
     padding: 1rem;
-    position: fixed;
-    top: 0px;
-    left: 1px;
-    width: 100%;
 }
 
 .nav-logo {
@@ -120,13 +121,13 @@
     display: flex;
     align-items: center;
     margin: auto;
-    padding-top: 2rem;
+    padding-top: rem;
     gap: 3rem;
 }
 
 .hero-img {
     width: 30vw;
-    height: 72vh;
+    height: 48vh;
 }
 
 .hero-img img {
@@ -141,6 +142,7 @@
     padding: 1rem;
     width: 70vw;
     height: 49vh;
+    padding-bottom: 5rem;
 }
 .survey-box p{
     font-size: 1.3rem;
