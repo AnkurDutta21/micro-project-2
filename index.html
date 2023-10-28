@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Micro project 2</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,&family=Inter&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="sticky-help">
-            <img src="./assets/help.svg" alt="helpicon">
-        </div>
+
         <!-- nav section -->
         <nav class="nav">
             <div class="nav-wrp">
@@ -20,14 +22,14 @@
                     <img src="./assets/dappr.png" alt="dprlogo">
                 </div>
                 <div class="nav-menu">
-                        <li>Home</li>
-                        <li>About us</li>
-                        <li>Information</li>
-                        <li>More</li>
-                        <li class="search-bar">
-                            <input type="text" name="search" id="search-bar" placeholder="Search...">
-                            <figure class="search-icn"><img src="./assets/search.svg" alt="srch icn"></figure>
-                        </li>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Information</li>
+                    <li>More</li>
+                    <li class="search-bar">
+                        <input type="text" name="search" id="search-bar" placeholder="Search...">
+                        <figure class="search-icn"><img src="./assets/search.svg" alt="srch icn"></figure>
+                    </li>
                 </div>
                 <figure class="ham-menu">
                     <img src="./assets/ham.svg" alt="ham-menu">
@@ -36,90 +38,98 @@
         </nav>
 
         <!-- hero section -->
-
+        <div class="container">
+            <div class="sticky-help">
+                    <img src="./assets/help.svg" alt="helpicon">
+                </div>
         <section class="hero-section">
-            <div class="sticky-menu">
-                <div class="social-link">
-                    <img src="./assets/logos_whatsapp-icon.svg" alt="social links">
+            <div class="survey-container">
+                <div class="sticky-menu">
+                    <div class="social-link">
+                        <img src="./assets/logos_whatsapp-icon.svg" alt="social links">
+                    </div>
+                    <div class="social-link">
+                        <img src="./assets/Vector (1).svg" alt="social links">
+                    </div>
+                    <div class="social-link">
+                        <img src="./assets/Vector.svg" alt="social links">
+                    </div>
                 </div>
-                <div class="social-link">
-                    <img src="./assets/Vector (1).svg" alt="social links">
+                <div class="survey-wrp">
+                    <div class="hero-img">
+                        <img src="./assets/image 4.png" alt="heroImg">
+                    </div>
+                    <div class="survey-box">
+                        <p>It's not only writers who can benefit from this free online tool. If you're a programmer
+                            who's
+                            working on a ......</p>
+                    </div>
                 </div>
-                <div class="social-link">
-                    <img src="./assets/Vector.svg" alt="social links">
-                </div>
-            </div>
-            <div class="survey-wrp">
-                <div class="hero-img">
-                    <img src="./assets/image 4.png" alt="heroImg">
-                </div>
-                <div class="survey-box">
-                    <p>It's not only writers who can benefit from this free online tool. If you're a programmer who's
-                        working on a ......</p>
-                </div>
-            </div>
 
-            <div class="cards-wrp">
-                <div class="card lightBlue">
-                    <div class="card-heading">
-                        <h3>Total question's</h3>
+
+                <div class="cards-wrp">
+                    <div class="card lightBlue">
+                        <div class="card-heading">
+                            <h3>Total question's</h3>
+                        </div>
+                        <div class="card-p">
+                            <p>200,000</p>
+                        </div>
                     </div>
-                    <div class="card-p">
-                        <p>200,000</p>
+                    <div class="card darkblue">
+                        <div class="card-heading">
+                            <h3>Total answer's</h3>
+                        </div>
+                        <div class="card-p">
+                            <p>105,000</p>
+                        </div>
+                    </div>
+                    <div class="card lightpink">
+                        <div class="card-heading">
+                            <h3>Participated</h3>
+                        </div>
+                        <div class="card-p">
+                            <p>10,000</p>
+                        </div>
+                    </div>
+                    <div class="card black">
+                        <div class="card-heading">
+                            <h3>Total Passed</h3>
+                        </div>
+                        <div class="card-p">
+                            <p>6,000</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card darkblue">
-                    <div class="card-heading">
-                        <h3>Total answer's</h3>
-                    </div>
-                    <div class="card-p">
-                        <p>105,000</p>
-                    </div>
-                </div>
-                <div class="card lightpink">
-                    <div class="card-heading">
-                        <h3>Participated</h3>
-                    </div>
-                    <div class="card-p">
-                        <p>10,000</p>
-                    </div>
-                </div>
-                <div class="card black">
-                    <div class="card-heading">
-                        <h3>Total Passed</h3>
-                    </div>
-                    <div class="card-p">
-                        <p>6,000</p>
-                    </div>
-                </div>
-            </div>
+            
         </section>
         <!-- details -->
         <section class="details">
             <div class="details-wrp">
                 <div class="details-lft">
                     <div class="option active">
-                        <p>Your Info</p>
+                        <p>YOUR INFO</p>
                     </div>
                     <div class="option">
-                        <p>Bookmarks</p>
+                        <p>BOOKMARKS</p>
                     </div>
                     <div class="option">
-                        <p>Settings</p>
+                        <p>SETTINGS</p>
                     </div>
                 </div>
                 <div class="right">
-                    <h2>Your Information</h4>
-                    <ul>
-                        <li><b>Name</b>: Atul Singhal</li>
-                        <li><b>Email</b>: Atul@gmail.com</li>
-                        <li><b>Phone</b>: +91 1234567890</li>
-                        <li><b>Marks</b>: 500.00</li>
-                    </ul>
-                    <button class="next">Next</button>
+                    <h1>Your Information</h1>
+                        <ul>
+                            <li><b>Name :</b> Atul Singhal</li>
+                            <li><b>Email :</b> Atul@gmail.com</li>
+                            <li><b>Phone :</b> +91 1234567890</li>
+                            <li><b>Marks :</b> 500.00</li>
+                        </ul>
+                        <button class="next">Next</button>
                 </div>
             </div>
         </section>
+    </div>
     </div>
 </body>
 

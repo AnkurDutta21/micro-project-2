@@ -3,6 +3,7 @@
     margin: 0;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .container-fluid {
@@ -14,8 +15,8 @@
     height: 4rem;
     width: 4rem;
     position: sticky;
-    top: 36rem;
-    left: 80rem;
+    top: 89vh;
+    left: 78vw;
     z-index: 99;
 }
 
@@ -30,8 +31,9 @@
     gap: 3px;
     position: sticky;
     top: 13rem;
-    left: 92rem;
+    left: 91.5rem;
     width: 40px;
+    margin-top: 10px;
 }
 .social-link{
     border: 1px solid #000;
@@ -48,6 +50,7 @@ nav{
     top: 0px;
     left: 1px;
     width: 100%;
+    z-index: 999;
 }
 .nav-wrp {
     background: #6F6AF7;
@@ -115,9 +118,16 @@ nav{
     object-fit: contain;
 }
 
-
+.container{
+    position: relative;
+}
 /* hero sec */
-
+.hero-section{
+    padding-bottom: 6vh;
+}
+.survey-container{
+    padding: 0.5rem 0rem 0rem 0rem;
+}
 .survey-wrp {
     width: 70%;
     height: 50vh;
@@ -165,10 +175,10 @@ nav{
 }
 .card{
     width: 23vw;
-    height:10vh;
+    /* height:10vh; */
     box-shadow: rgba(0, 0, 0, 0.4);
     color: #fff;
-    padding: 0.5rem 0.5rem;
+    padding: 2vh 1vw;
     border-radius: 0.3rem;
 }
 .lightBlue{
@@ -195,25 +205,26 @@ nav{
     justify-content: space-around;
     border-radius: 0.8rem;
     gap: 50px;
-    padding: 0rem 1rem 1rem 2rem;
+    padding: 3vh 2vw;
 }
 .details-lft{
     width: 20vh;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-top: 3rem;
-    margin-left: 3rem;
+    margin: 3vh 3vw;
 }
 .option{
     width: 13vw;
-    height: 9vh;
+    /* height: 9vh; */
     border-radius: 0.4rem;
     background-color: transparent;
    border:1px solid #fff;
     color: #fff;
     text-align: center;
     padding:22px;
+    font-weight: 800;
+    text-transform: capitalize;
 }
 .active{
     background-color: #BCE0F6;
@@ -221,25 +232,27 @@ nav{
 }
 .right{
     background-color: #fff;
-    padding: 2rem 4rem;
+    padding: 8vh 4vw;
     border-radius: 1rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     position: relative;
     width: 46vw;
-    height: 40vh;
-    margin-left: 4rem;
+    /* height: 40vh; */
+    margin-left: 3vw;
 }
-.right h2{
+.right h1{
     margin-bottom: 12px;
+    font-family: 'Inter', sans-serif;
 }
 .right ul>li{
     margin: 0px 0px 10px 12px;
     color: #143565;
+    font-family: 'Roboto', sans-serif;
 }
 .next{
-    position: relative;
-    bottom: -1rem;
-    right: -30rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 5rem;
     color: #fff;
     background-color: #000;
     padding: 0.5rem 1rem;
